@@ -99,9 +99,9 @@ def move(name, column_name):
     
     requests.put(base_url.format('cards') + '/' + task_id + '/idList', data={'value': column_id, **auth_params})
     
-    #Получим данные со всех колонок на доске
-    column_data = requests.get(base_url.format('boards') + '/' + board_id + '/lists', params=auth_params).json()
-    # print(column_data)
+#     #Получим данные со всех колонок на доске
+#     column_data = requests.get(base_url.format('boards') + '/' + board_id + '/lists', params=auth_params).json()
+#     # print(column_data)
 
 #     #Среди всех колонок нужно найти задачу по имени и получить её id
 #     task_id = None
