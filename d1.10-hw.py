@@ -4,8 +4,8 @@ import requests
 from trello import TrelloApi
 # Данные авторизации в API Trello  
 auth_params = {    
-    'key': "f50f956b6683f16fca0c5a6de38770c7",    
-    'token': "9c1c3ca4f79cd53b0430aeb0d4b397d05561c5af2f9bb89d4c4a10a8ff6b9fbb", } 
+    'key': "тут должен быть ваш key",    
+    'token': "тут должен быть ваш token", } 
 
 trelloNew =  TrelloApi(auth_params['key'], auth_params['token'])
 
